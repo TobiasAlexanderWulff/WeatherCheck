@@ -1,9 +1,8 @@
-from datetime import datetime as dt
-
 import json
-import requests as req
 import schedule
 import time
+import requests as req
+import datetime as dt
 
 directory = "WeatherData/"
 
