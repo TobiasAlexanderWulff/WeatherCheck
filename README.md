@@ -6,5 +6,5 @@ Checks the Weather every hour and outputs it to a json.
 2. arduino takes some action coresponding to the data
 
 
-### Weather API
+## Weather API
 https://open-meteo.com/
