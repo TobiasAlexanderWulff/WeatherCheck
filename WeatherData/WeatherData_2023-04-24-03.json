@@ -1,11 +1,11 @@
 {
     "current_weather": {
         "is_day": 0,
-        "temperature": 9.6,
-        "time": "2023-04-24T04:00",
+        "temperature": 10.3,
+        "time": "2023-04-24T03:00",
         "weathercode": 2,
-        "winddirection": 207.0,
-        "windspeed": 8.9
+        "winddirection": 194.0,
+        "windspeed": 11.5
     },
     "daily": {
         "sunrise": [
@@ -24,7 +24,7 @@
         "time": "iso8601"
     },
     "elevation": 78.0,
-    "generationtime_ms": 0.6189346313476562,
+    "generationtime_ms": 0.825047492980957,
     "hourly": {
         "cloudcover": [
             69,
