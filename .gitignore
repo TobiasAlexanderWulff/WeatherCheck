@@ -1,5 +1,7 @@
 /__pycache__
-/.vs
+/.vscode
 /WeatherData
 /log
+/build
+/c_cpp_properties.json
 
