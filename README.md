@@ -8,3 +8,28 @@ Checks the Weather every hour and outputs it to a json.
 
 ## Weather API
 https://open-meteo.com/
+
+# Einführung
+
+# Problemstelung
+
+# Lösungsansatz
+
+# Idee / Skizzen
+
+# Planung
+
+## Im Bereich Software
+
+## Im Bereich Hardware
+
+### Bestandteile
+
+### Schaltplan
+
+# Umsetzung
+
+# Fazit
+
+# Quellen
+
