@@ -21,7 +21,14 @@ In unserer heutigen Gesellschaft ist Zeitersparnis oftmals ein wichtiges Thema. 
 
 # Lösungsansatz
 
-# Idee / Skizzen
+Eine prominente Idee für die Lösung des Problems war, das Anzeigen von Wetterdaten intuitiv in andere Alltagsgegenstände zu integrieren, ohne diese mit Informationen zu überladen.
+
+## Kombination: Uhr
+
+Diese Kombination hat die Vorteile, dass für einen großteil Nutzer Wetterdaten, wie Temperatur, Bewölkungsgrad, Regenwahrscheinlichkeit meist in Zusammenhang mit der gegebenen Uhrzeit gebraucht werden.
+Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger und etwas leichter, als das Handy zu entsperren und die jeweilge App oder das jeweilge Widget zu suchen.
+
+# Idee / Skizzen und Konzept
 
 # Planung
 
