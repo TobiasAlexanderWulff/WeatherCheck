@@ -30,11 +30,25 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Idee / Skizzen und Konzept
 
+
+
 # Planung
 
 ## Im Bereich Software
 
+- WiFi connect (WPS?)
+- Standort durch IP?
+- Wetter API pull
+- Wetterdaten zu Signalen gemapt
+- Signale an Leds gesendet
+- Spracherkennung sorgt für Wechsel der Led-Anzeige (Wetter, Temperatur, Sonnenauf- und Untergang)
+
 ## Im Bereich Hardware
+
+- Led-Leuchtbogen
+- standard Wanduhr
+- Arduino Nano 2040rp connect
+- 5V Batterie / Netzteil
 
 ### Bestandteile
 
