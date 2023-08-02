@@ -30,7 +30,7 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Idee und Skizzen
 
-![image](https://imgur.com/a/p8YEb9f)
+![image](https://i.imgur.com/MMtGajV.jpg)
 
 
 # Planung
