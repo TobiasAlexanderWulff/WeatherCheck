@@ -28,8 +28,9 @@ Eine prominente Idee für die Lösung des Problems war, das Anzeigen von Wetterd
 Diese Kombination hat die Vorteile, dass für einen großteil Nutzer Wetterdaten, wie Temperatur, Bewölkungsgrad, Regenwahrscheinlichkeit meist in Zusammenhang mit der gegebenen Uhrzeit gebraucht werden.
 Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger und etwas leichter, als das Handy zu entsperren und die jeweilge App oder das jeweilge Widget zu suchen.
 
-# Idee / Skizzen und Konzept
+# Idee und Skizzen
 
+![image](file:///C:/Users/Tobias/OneDrive/Dokumente/%23%20Studium/6.%20Semester/UbiCom/Projekt/PDF%20Scanner%2027-07-23%2011.24.11.jpg)
 
 
 # Planung
