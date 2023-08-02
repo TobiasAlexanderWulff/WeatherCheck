@@ -30,7 +30,7 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Idee und Skizzen
 
-![image](file:///C:/Users/Tobias/OneDrive/Dokumente/%23%20Studium/6.%20Semester/UbiCom/Projekt/PDF%20Scanner%2027-07-23%2011.24.11.jpg)
+![image](https://imgur.com/a/p8YEb9f)
 
 
 # Planung
