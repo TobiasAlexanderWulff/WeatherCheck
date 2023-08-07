@@ -57,6 +57,10 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Umsetzung
 
+Als erstes war es wichtig, überhaupt an Wetterdaten zu gelangen und festzustellen, in welchem Format diese erhalten werden. Diese Funktion übernahm zunächst ein alleinstehendes Python-Skript, welches kostenfrei stündlich die lokalen Wetterdaten von der API der Website open-meteo.com bezog.
+Um diesen Service auf dem Arduino auszuführen, musste zunächst eine Internetverbindung hergestellt werden. Genutzt wurde dafür eine Abwandlung eines Beispielskriptes für WifiNINA.
+Als nächsten Schritt folgte ein Versuch beide Skripte zu kombinieren, indem das Python-Skript in C++ abgewandelt werden sollte. 
+
 # Fazit
 
 # Quellen
