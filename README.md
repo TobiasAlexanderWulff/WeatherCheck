@@ -1,13 +1,4 @@
-# WeatherCheck
-Checks the Weather every hour and outputs it to a json.
 
-## Planned
-1. python code runs from arduino
-2. arduino takes some action coresponding to the data
-
-
-## Weather API
-https://open-meteo.com/
 
 # Einführung
 
@@ -51,15 +42,17 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 - Arduino Nano 2040rp connect
 - 5V Batterie / Netzteil
 
-### Bestandteile
-
-### Schaltplan
-
 # Umsetzung
 
 Als erstes war es wichtig, überhaupt an Wetterdaten zu gelangen und festzustellen, in welchem Format diese erhalten werden. Diese Funktion übernahm zunächst ein alleinstehendes Python-Skript, welches kostenfrei stündlich die lokalen Wetterdaten von der API der Website open-meteo.com bezog.
 Um diesen Service auf dem Arduino auszuführen, musste zunächst eine Internetverbindung hergestellt werden. Genutzt wurde dafür eine Abwandlung eines Beispielskriptes für WifiNINA.
-Als nächsten Schritt folgte ein Versuch beide Skripte zu kombinieren, indem das Python-Skript in C++ abgewandelt werden sollte. 
+Als nächsten Schritt folgte ein Versuch beide Skripte zu kombinieren, indem das Python-Skript in C++ abgewandelt werden sollte.Allerdings gab es einige Probleme, auf diese Weise eine vernünftig gesicherte Verbindung zu der Website aufzubauen. Außerdem stellte es sich als deutlich aufwendiger heraus, die Wetterdaten geordnet zwischenzuspeichern um diese verarbeiten zu können.
+Um dieses Problem zu lösen spielt die Verwendung von MikroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino ebenso wie C++, nur halt in Python. Ein kurzes Skript zum Test befindet sich im Verzeichnis.
+
+
+# Zukunft
+
+
 
 # Fazit
 
