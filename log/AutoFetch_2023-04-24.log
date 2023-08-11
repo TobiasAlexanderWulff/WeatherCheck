@@ -1,9 +1,0 @@
-INFO:2023-04-24 13:34:52,907: AutoFetching of WeatherData started
-INFO:2023-04-24 13:34:52,907: Start fetching..
-DEBUG:2023-04-24 13:34:52,911: Starting new HTTPS connection (1): api.open-meteo.com:443
-DEBUG:2023-04-24 13:34:52,995: https://api.open-meteo.com:443 "GET /v1/forecast?latitude=51.67&longitude=8.34&hourly=temperature_2m,rain,showers,snowfall,cloudcover,visibility,is_day&daily=sunrise,sunset&current_weather=true&forecast_days=1&timezone=Europe%2FBerlin HTTP/1.1" 200 None
-DEBUG:2023-04-24 13:34:52,998: Success!
-DEBUG:2023-04-24 13:34:52,998: Saving to File..
-DEBUG:2023-04-24 13:34:53,000: Saving successful!
-INFO:2023-04-24 13:34:53,000: Fetching successful!
-INFO:2023-04-24 13:34:53,000: Fetching scheduled to be every hour on minute 04.

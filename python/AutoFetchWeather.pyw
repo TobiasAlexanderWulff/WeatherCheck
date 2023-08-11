@@ -1,3 +1,6 @@
+
+# Skript zum automatischen Abrufen der Wetterdaten von open-meteo.com und Speichern in einer Datei.
+
 import logging as log
 
 import json
@@ -8,10 +11,10 @@ from datetime import datetime as dt
 
 today = dt.today().strftime("%Y-%m-%d")
 
-log.basicConfig(filename="log/AutoFetch_" + today + ".log", encoding="utf-8", format='%(levelname)s:%(asctime)s: %(message)s', level=log.DEBUG)
+log.basicConfig(filename="python/log/AutoFetch_" + today + ".log", encoding="utf-8", format='%(levelname)s:%(asctime)s: %(message)s', level=log.DEBUG)
 log.info("AutoFetching of WeatherData started")
 
-directory = "WeatherData/"
+directory = "python/WeatherData/"
 
 
 def to_beauty_string(obj):
