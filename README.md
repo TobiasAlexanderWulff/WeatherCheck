@@ -4,7 +4,9 @@
 
 In unserer heutigen Gesellschaft ist Zeitersparnis oft ein wichtiges Thema. Bevor wir vor die Tür gehen, checken wir mit einer unserer Apps auf dem Handy, wie das Wetter wird. 
 <br>
-Aber wie wäre es mit einer Alternative für zu Hause? Eine, die uns wieder etwas weg vom Smartphone führt?
+Aber wie wäre es mit einer Alternative für zu Hause?
+<br>
+Eine, die uns wieder etwas weg vom Smartphone führt?
 
 # Problemstellung
 
