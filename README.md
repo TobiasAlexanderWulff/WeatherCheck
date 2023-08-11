@@ -8,8 +8,8 @@ In unserer heutigen Gesellschaft ist Zeitersparnis oft ein wichtiges Thema. Bevo
 
 # Problemstellung
 
-- Heutzutage gibt es sogut wie für alles eine App, doch ist dies wirklich so gut? Viele Menschen verbringen schon einen großen Teil ihrer Zeit mit iherem Smartphone. Besonders bei den jüngeren Generationen ist gelegentlich zu beobachten, wie manch einer fast vergisst sein normales Leben zu leben, weil er zu tief versunken ist. Doch gibt es eine Möglichkeit diesem Problem entgegenzuwirken? Es wäre schön, wenn Lösungen für Probleme wieder mehr werden als eine App auf dem Handy.
-- Um das Problem auf einen kleineren Bereich zu beschränken, soll der Fokus hier auf Wetter Apps liegen. Eine bisherige Alternative zu diesen sind der Wetterbericht in Zeitung, Radio oder Fernsehen, als auch physische Displays für die Anzeige der lokalen Wetterdaten. Interssant ist die Frage, wie man diese physischen Wetteranzeigen etwas spannender machen kann oder möglicherweise dafür sorgt, dass diese nicht nur wieder einen weiteren Platz im Regal wegnehmen?
+Heutzutage gibt es für fast alles eine App, aber ist das wirklich gut? Viele Menschen verbringen bereits einen Großteil ihrer Zeit mit ihrem Smartphone. Vor allem bei der jüngeren Generation kann man manchmal beobachten, wie manche ihr normales Leben fast vergessen, weil sie zu tief darin versunken sind. Aber gibt es eine Möglichkeit, diesem Problem entgegenzuwirken? Es wäre schön, wenn Problemlösungen wieder mehr wären als eine App auf dem Handy.
+Um das Problem auf einen kleineren Bereich einzugrenzen, soll hier der Fokus auf Wetter-Apps gelegt werden. Eine bisherige Alternative dazu sind Wetterberichte in Zeitungen, Radio oder Fernsehen sowie physische Displays zur Anzeige lokaler Wetterdaten. Interessant ist die Frage, wie man diese physischen Wetterdisplays etwas spannender machen kann oder vielleicht auch dafür sorgen kann, dass sie nicht einfach nur einen weiteren Platz im Regal wegnehmen.
 
 
 # Lösungsansatz
