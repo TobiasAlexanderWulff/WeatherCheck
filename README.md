@@ -14,7 +14,7 @@ Um das Problem auf einen kleineren Bereich einzugrenzen, soll hier der Fokus auf
 
 # Lösungsansatz
 
-Eine prominente Idee für die Lösung des Problems war, das Anzeigen von Wetterdaten intuitiv in andere Alltagsgegenstände zu integrieren, ohne diese mit Informationen zu überladen.
+Eine prominente Idee zur Lösung des Problems war, die Anzeige von Wetterdaten intuitiv in andere Alltagsgegenstände zu integrieren, ohne diese mit Informationen zu überfrachten.
 
 ## Kombination: Uhr
 
