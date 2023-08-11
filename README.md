@@ -18,8 +18,8 @@ Eine prominente Idee zur Lösung des Problems war, die Anzeige von Wetterdaten i
 
 ## Kombination: Uhr
 
-Diese Kombination hat die Vorteile, dass für einen großteil Nutzer Wetterdaten, wie Temperatur, Bewölkungsgrad, Regenwahrscheinlichkeit meist in Zusammenhang mit der gegebenen Uhrzeit gebraucht werden.
-Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger und etwas leichter, als das Handy zu entsperren und die jeweilge App oder das jeweilge Widget zu suchen.
+Diese Kombination hat den Vorteil, dass für einen Großteil der Nutzer Wetterdaten wie Temperatur, Bewölkungsgrad, Regenwahrscheinlichkeit meist im Zusammenhang mit der aktuellen Uhrzeit benötigt werden.
+Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger und etwas einfacher, als das Handy zu entsperren und die entsprechende App oder das Widget zu suchen.
 
 # Idee und Skizzen
 
