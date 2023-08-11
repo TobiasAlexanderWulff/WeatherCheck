@@ -23,6 +23,7 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Idee und Skizzen
 
+Verschiedene Ideen zur farblichen Darstellung von Wetter- und Tageszeitinformationen:
 ![image](https://i.imgur.com/MMtGajV.jpg)
 
 
