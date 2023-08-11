@@ -4,5 +4,5 @@
 /python/log
 /build
 /c_cpp_properties.json
-
+/ino/arduino_secrets.h
 
