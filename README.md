@@ -44,10 +44,10 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Umsetzung
 
-Als erstes war es wichtig, überhaupt an Wetterdaten zu gelangen und festzustellen, in welchem Format diese erhalten werden. Diese Funktion übernahm zunächst ein alleinstehendes Python-Skript, welches kostenfrei stündlich die lokalen Wetterdaten von der API der Website open-meteo.com bezog.
-Um diesen Service auf dem Arduino auszuführen, musste zunächst eine Internetverbindung hergestellt werden. Genutzt wurde dafür eine Abwandlung eines Beispielskriptes für WifiNINA.
-Als nächsten Schritt folgte ein Versuch beide Skripte zu kombinieren, indem das Python-Skript in C++ abgewandelt werden sollte.Allerdings gab es einige Probleme, auf diese Weise eine vernünftig gesicherte Verbindung zu der Website aufzubauen. Außerdem stellte es sich als deutlich aufwendiger heraus, die Wetterdaten geordnet zwischenzuspeichern um diese verarbeiten zu können.
-Um dieses Problem zu lösen spielt die Verwendung von MikroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino ebenso wie C++, nur halt in Python. Ein kurzes Skript zum Test befindet sich im Verzeichnis.
+Zunächst war es wichtig, überhaupt an Wetterdaten zu gelangen und herauszufinden, in welchem Format diese zur Verfügung stehen. Diese Aufgabe übernahm zunächst ein eigenständiges Python-Skript, das stündlich die lokalen Wetterdaten kostenlos von der API der Webseite open-meteo.com bezog.
+Um diesen Dienst auf dem Arduino auszuführen, musste zunächst eine Verbindung zum Internet hergestellt werden. Dazu wurde eine Modifikation eines Beispielskripts für WifiNINA verwendet.
+Im nächsten Schritt wurde versucht, die beiden Skripte zu kombinieren, indem das Python-Skript in C++ umgewandelt wurde. Es gab jedoch einige Probleme, auf diese Weise eine vernünftige sichere Verbindung zur Website herzustellen. Außerdem erwies es sich sich als wesentlich aufwendiger, auf diese Weise die Wetterdaten geordnet zwischenzuspeichern und sie zu verarbeiten.
+Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino genauso wie C++, nur eben in Python. Ein kurzes Skript zum Testen befindet sich im Verzeichnis.
 
 
 # Zukunft
