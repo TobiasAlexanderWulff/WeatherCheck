@@ -2,7 +2,9 @@
 
 # Einführung
 
-In unserer heutigen Gesellschaft ist Zeitersparnis oftmals ein wichtiges Thema. Bevor wir rausgehen, überprüfen wir meist mithilfe einer unserer Apps auf dem Handy, wie sich das Wetter entwickeln wird. Doch wie wäre es mit einer Alternative für Zuhause? Eine welche uns wieder etwas vom Smartphone weg bringt?
+In unserer heutigen Gesellschaft ist Zeitersparnis oft ein wichtiges Thema. Bevor wir vor die Tür gehen, checken wir mit einer unserer Apps auf dem Handy, wie das Wetter wird. 
+<br>
+Aber wie wäre es mit einer Alternative für zu Hause? Eine, die uns wieder etwas weg vom Smartphone führt?
 
 # Problemstellung
 
