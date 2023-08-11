@@ -28,14 +28,10 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 
 # Planung
 
-## Im Bereich Software
+## Software
 
-- WiFi connect (WPS?)
-- Standort durch IP?
-- Wetter API pull
-- Wetterdaten zu Signalen gemapt
-- Signale an Leds gesendet
-- Spracherkennung sorgt für Wechsel der Led-Anzeige (Wetter, Temperatur, Sonnenauf- und Untergang)
+Die Software sollte zunächst in der Lage sein, eine WLAN-Verbindung aufzubauen. Diese sollte für den Benutzer möglichst einfach einstellbar sein.<br> Sollte es nicht möglich sein, den Standort über die IP herauszufinden und zu bestimmen, sollte der Nutzer diesen ebenfalls einfach angeben und auch ändern können. Mit Hilfe des Standortes können dann die lokalen Wetterdaten der nächsten 12 Stunden von der API abgerufen werden. Diese Daten werden dann klassifiziert und gespeichert. Standardmäßig werden die Temperaturdaten zunächst in Signale für die LEDs des Pixelrings übersetzt und angezeigt. Mit Hilfe des internen Mikrofons des Arduinos soll durch die Erkennung von Schlüsselwörtern wie z.B. "Temperatur", "Niederschlag", "Sonnenaufgang" oder "Sonnenuntergang" der Modus der LED-Anzeige geändert werden. Je nach aktivem Modus werden dann unterschiedliche Informationen durch unterschiedliche Farbschemata dargestellt, um eine Informationsüberflutung zu vermeiden.
+
 
 ## Im Bereich Hardware
 
