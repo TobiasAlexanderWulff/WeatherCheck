@@ -35,7 +35,7 @@ Die Software sollte zunächst in der Lage sein, eine WLAN-Verbindung aufzubauen.
 
 ## Hardware
 
-Die Hardware besteht aus einem NeoPixel Ring, der den Rahmen einer handelsüblichen Wanduhr bilden soll. Diese würde Informationen der nächsten 12 Stunden wie Temperatur, Niederschlag, Bewölkung oder Sonnenauf- und -untergang farbcodiert anzeigen.<br>
+Zunächst verwendet wird ein NeoPixel Ring, der den Rahmen einer handelsüblichen Wanduhr bilden soll. Dieser würde Informationen der nächsten 12 Stunden wie Temperatur, Niederschlag, Bewölkung oder Sonnenauf- und -untergang farbcodiert anzeigen.<br>
 Um alle nötigen Informationen zu beschaffen und zu verarbeiten wird ein Arduino vom Typ Nano RP2040 Connect verwendet. Dieser soll entweder mit einer Batterie oder einem Netzteil betrieben werden.<br>
 Der Pixel Ring benötigt ebenfalls eine eigene 5V Versorgung.
 
