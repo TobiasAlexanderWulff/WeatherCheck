@@ -59,10 +59,3 @@ Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwi
 Der nächste Schritt wäre nun, eine funktionierende Internetverbindung über MicroPython herzustellen und die Wetterdaten herunterzuladen. Anschließend müsste eine statische Tabelle erstellt werden, um die gewonnenen Daten den jeweiligen Farbwerten für die LEDs zuzuordnen. Um diese auf dem NeoPixel Ring anzeigen zu können, müsste zunächst noch eine 5V-Versorgung für den NeoPixel Ring sichergestellt werden.<br>
 Mit Hilfe von MicroPython soll das Arduino-Mikrofon dazu verwendet werden, die Schlüsselbegriffe zu erkennen und dann den jeweiligen Modus der LED-Ringe zu ändern, um die entsprechenden Informationen anzuzeigen.<br>
 Zum Schluss muss noch die Wanduhr mit dem Arduino und dem NeoPixel Ring kombiniert werden.
-
-
-# Fazit
-
-
-# Quellen
-
