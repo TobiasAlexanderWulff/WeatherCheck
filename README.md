@@ -45,13 +45,13 @@ Der Pixel Ring benötigt ebenfalls eine eigene 5V Versorgung.
 
 # Umsetzung
 
-Zunächst war es wichtig, überhaupt an Wetterdaten zu gelangen und herauszufinden, in welchem Format diese zur Verfügung stehen. Diese Aufgabe übernahm zunächst ein eigenständiges Python-Skript, das stündlich die lokalen Wetterdaten kostenlos von der API der Webseite open-meteo.com bezog.
+Zunächst war es wichtig, überhaupt an Wetterdaten zu gelangen und herauszufinden, in welchem Format diese zur Verfügung stehen. Diese Aufgabe übernahm zunächst ein [eigenständiges Python-Skript](python/AutoFethWeather.pyw), das stündlich im Hintergrund die lokalen Wetterdaten kostenlos von der API der Webseite open-meteo.com bezog.
 <br>
 Um diesen Dienst auf dem Arduino auszuführen, musste zunächst eine Verbindung zum Internet hergestellt werden. Dazu wurde eine Modifikation eines [Beispielskripts für WifiNINA](ino/WeatherCheck.ino) verwendet.
 <br>
 Im nächsten Schritt wurde versucht, die beiden Skripte zu kombinieren, indem das Python-Skript in C++ umgewandelt wurde. Es gab jedoch einige Probleme, auf diese Weise eine vernünftige sichere Verbindung zur Website herzustellen. Außerdem erwies es sich sich als wesentlich aufwendiger, auf diese Weise die Wetterdaten geordnet zwischenzuspeichern und sie zu verarbeiten.
 <br>
-Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino genauso wie C++, nur eben in Python. Ein kurzes Skript zum Testen der Lauffähigkeit befindet sich im Verzeichnis.
+Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino genauso wie C++, nur eben in Python. Ein kurzes [Skript zum Testen](thonny/blink_test.py) der Lauffähigkeit befindet sich im Verzeichnis.
 
 
 # Zukunft
