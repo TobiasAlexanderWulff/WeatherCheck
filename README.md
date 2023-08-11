@@ -33,12 +33,11 @@ Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger u
 Die Software sollte zunächst in der Lage sein, eine WLAN-Verbindung aufzubauen. Diese sollte für den Benutzer möglichst einfach einstellbar sein.<br> Sollte es nicht möglich sein, den Standort über die IP herauszufinden und zu bestimmen, sollte der Nutzer diesen ebenfalls einfach angeben und auch ändern können. Mit Hilfe des Standortes können dann die lokalen Wetterdaten der nächsten 12 Stunden von der API abgerufen werden. Diese Daten werden dann klassifiziert und gespeichert. Standardmäßig werden die Temperaturdaten zunächst in Signale für die LEDs des Pixelrings übersetzt und angezeigt. Mit Hilfe des internen Mikrofons des Arduinos soll durch die Erkennung von Schlüsselwörtern wie z.B. "Temperatur", "Niederschlag", "Sonnenaufgang" oder "Sonnenuntergang" der Modus der LED-Anzeige geändert werden. Je nach aktivem Modus werden dann unterschiedliche Informationen durch unterschiedliche Farbschemata dargestellt, um eine Informationsüberflutung zu vermeiden.
 
 
-## Im Bereich Hardware
+## Hardware
 
-- Led-Leuchtbogen
-- standard Wanduhr
-- Arduino Nano 2040rp connect
-- 5V Batterie / Netzteil
+Die Hardware besteht aus einem NeoPixel Ring, der den Rahmen einer handelsüblichen Wanduhr bilden soll. Diese würde Informationen der nächsten 12 Stunden wie Temperatur, Niederschlag, Bewölkung oder Sonnenauf- und -untergang farbcodiert anzeigen.<br>
+Um alle nötigen Informationen zu beschaffen und zu verarbeiten wird ein Arduino vom Typ Nano RP2040 Connect verwendet. Dieser soll entweder mit einer Batterie oder einem Netzteil betrieben werden.<br>
+Der Pixel Ring benötigt ebenfalls eine eigene 5V Versorgung.
 
 # Umsetzung
 
