@@ -45,7 +45,7 @@ Der Pixel Ring benötigt ebenfalls eine eigene 5V Versorgung.
 
 # Umsetzung
 
-Zunächst war es wichtig, überhaupt an Wetterdaten zu gelangen und herauszufinden, in welchem Format diese zur Verfügung stehen. Diese Aufgabe übernahm zunächst ein [eigenständiges Python-Skript](python/AutoFethWeather.pyw), das stündlich im Hintergrund die lokalen Wetterdaten kostenlos von der API der Webseite open-meteo.com bezog.
+Zunächst war es wichtig, überhaupt an Wetterdaten zu gelangen und herauszufinden, in welchem Format diese zur Verfügung stehen. Diese Aufgabe übernahm zunächst ein [eigenständiges Python-Skript](python/AutoFetchWeather.pyw), das stündlich im Hintergrund die lokalen Wetterdaten kostenlos von der API der Webseite open-meteo.com bezog.
 <br>
 Um diesen Dienst auf dem Arduino auszuführen, musste zunächst eine Verbindung zum Internet hergestellt werden. Dazu wurde eine Modifikation eines [Beispielskripts für WifiNINA](ino/WeatherCheck.ino) verwendet.
 <br>
