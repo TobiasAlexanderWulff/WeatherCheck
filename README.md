@@ -1,10 +1,12 @@
 # WeatherCheck
 Ubiquitous Computing - Dokumentation - Tobias Wulff - (Update: 11.08.2023)
 
+
 # Einführung
 
 In unserer heutigen Gesellschaft ist Zeitersparnis oft ein wichtiges Thema. Bevor wir vor die Tür gehen, checken wir mit einer unserer Apps auf dem Handy, wie das Wetter wird. <br>Aber wie wäre es mit einer Alternative für zu Hause?
 <br>Eine, die uns wieder etwas weg vom Smartphone führt?
+
 
 # Problemstellung
 
@@ -21,6 +23,7 @@ Eine prominente Idee zur Lösung des Problems war, die Anzeige von Wetterdaten i
 Diese Kombination hat den Vorteil, dass für einen Großteil der Nutzer Wetterdaten wie Temperatur, Bewölkungsgrad, Regenwahrscheinlichkeit meist im Zusammenhang mit der aktuellen Uhrzeit benötigt werden.
 Außerdem ist ein Blick auf die Uhr an der Wand durchaus intuitiver, häufiger und etwas einfacher, als das Handy zu entsperren und die entsprechende App oder das Widget zu suchen.
 
+
 # Idee und Skizzen
 
 Verschiedene Ideen zur farblichen Darstellung von Wetter- und Tageszeitinformationen:
@@ -33,12 +36,12 @@ Verschiedene Ideen zur farblichen Darstellung von Wetter- und Tageszeitinformati
 
 Die Software sollte zunächst in der Lage sein, eine WLAN-Verbindung aufzubauen. Diese sollte für den Benutzer möglichst einfach einstellbar sein.<br> Sollte es nicht möglich sein, den Standort über die IP herauszufinden und zu bestimmen, sollte der Nutzer diesen ebenfalls einfach angeben und auch ändern können. Mit Hilfe des Standortes können dann die lokalen Wetterdaten der nächsten 12 Stunden von der API abgerufen werden. Diese Daten werden dann klassifiziert und gespeichert. Standardmäßig werden die Temperaturdaten zunächst in Signale für die LEDs des Pixelrings übersetzt und angezeigt. Mit Hilfe des internen Mikrofons des Arduinos soll durch die Erkennung von Schlüsselwörtern wie z.B. "Temperatur", "Niederschlag", "Sonnenaufgang" oder "Sonnenuntergang" der Modus der LED-Anzeige geändert werden. Je nach aktivem Modus werden dann unterschiedliche Informationen durch unterschiedliche Farbschemata dargestellt, um eine Informationsüberflutung zu vermeiden.
 
-
 ## Hardware
 
 Zunächst verwendet wird ein NeoPixel Ring, der den Rahmen einer handelsüblichen Wanduhr bilden soll. Dieser würde Informationen der nächsten 12 Stunden wie Temperatur, Niederschlag, Bewölkung oder Sonnenauf- und -untergang farbcodiert anzeigen.<br>
 Um alle nötigen Informationen zu beschaffen und zu verarbeiten wird ein Arduino vom Typ Nano RP2040 Connect verwendet. Dieser soll entweder mit einer Batterie oder einem Netzteil betrieben werden.<br>
 Der Pixel Ring benötigt ebenfalls eine eigene 5V Versorgung.
+
 
 # Umsetzung
 
@@ -48,14 +51,18 @@ Um diesen Dienst auf dem Arduino auszuführen, musste zunächst eine Verbindung 
 <br>
 Im nächsten Schritt wurde versucht, die beiden Skripte zu kombinieren, indem das Python-Skript in C++ umgewandelt wurde. Es gab jedoch einige Probleme, auf diese Weise eine vernünftige sichere Verbindung zur Website herzustellen. Außerdem erwies es sich sich als wesentlich aufwendiger, auf diese Weise die Wetterdaten geordnet zwischenzuspeichern und sie zu verarbeiten.
 <br>
-Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino genauso wie C++, nur eben in Python. Ein kurzes Skript zum Testen befindet sich im Verzeichnis.
+Um dieses Problem zu lösen, spielte die Verwendung von MicroPython in der Entwicklungsumgebung "Thonny" eine Rolle. MikroPython läuft auf dem Arduino genauso wie C++, nur eben in Python. Ein kurzes Skript zum Testen der Lauffähigkeit befindet sich im Verzeichnis.
 
 
 # Zukunft
 
+Der nächste Schritt wäre nun, eine funktionierende Internetverbindung über MicroPython herzustellen und die Wetterdaten herunterzuladen. Anschließend müsste eine statische Tabelle erstellt werden, um die gewonnenen Daten den jeweiligen Farbwerten für die LEDs zuzuordnen. Um diese auf dem NeoPixel Ring anzeigen zu können, müsste zunächst noch eine 5V-Versorgung für den NeoPixel Ring sichergestellt werden.<br>
+Mit Hilfe von MicroPython soll das Arduino-Mikrofon dazu verwendet werden, die Schlüsselbegriffe zu erkennen und dann den jeweiligen Modus der LED-Ringe zu ändern, um die entsprechenden Informationen anzuzeigen.<br>
+Zum Schluss muss noch die Wanduhr mit dem Arduino und dem NeoPixel Ring kombiniert werden.
 
 
 # Fazit
+
 
 # Quellen
 
